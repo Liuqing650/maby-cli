@@ -1,0 +1,23 @@
+{
+  "name": "maby-cli",
+  "version": "0.1.0",
+  "description": "maby-cli",
+  "bin": {
+    "maby": "bin/maby"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "maby-cli"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  "author": "liuqing",
+  "license": "ISC"
+}
