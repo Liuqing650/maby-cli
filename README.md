@@ -1,5 +1,7 @@
 # [maby-cli](https://github.com/Liuqing650/maby-cli)
 
+  [![NPM](https://nodei.co/npm/maby-cli.png)](https://nodei.co/npm/maby-cli/)
+
   maby-cli 是一个可扩展脚手架，用于快速创建新项目框架目录结构。
 
 ## 使用方法
@@ -13,7 +15,7 @@
  	<blockquote>
  		maby init
 	</blockquote>
-  
+
   ```
     名称： 4867 | 编号：[ mabyTemplate ]
     名称： 2045 | 编号：[ webpackProject ]
