@@ -11,8 +11,9 @@
     npm install maby-cli -g
   ```
  
-  2. create
- 	``` 
+  2. create 
+  
+  ``` 
     maby init
     
     名称： 4867 | 编号：[ mabyTemplate ]
