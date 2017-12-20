@@ -7,10 +7,14 @@
 ## 使用方法
 
   1. install
-  ` npm install maby-cli -g `
+  ``` 
+    npm install maby-cli -g
+  ```
  
   2. create
- 	` maby init `
+ 	```
+    maby init
+  ```
 
   ```
     名称： 4867 | 编号：[ mabyTemplate ]
@@ -26,10 +30,12 @@
 
     cd newProject && npm install 
   ```
- 	
+
   3. run
-  ` cd newProject `
-  ` npm install `
+  ```
+    cd newProject
+    npm install
+  ```
 
 ## 功能模块
 
