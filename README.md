@@ -1,7 +1,7 @@
 # [maby-cli](https://github.com/Liuqing650/maby-cli)
 
   [![NPM](https://nodei.co/npm/maby-cli.png)](https://nodei.co/npm/maby-cli/)
-
+  [![npm build](https://img.shields.io/badge/maby--cli-build-brightgreen.svg)](https://nodei.co/npm/maby-cli/)
   maby-cli 是一个可扩展脚手架，用于快速创建新项目框架目录结构。
 
 ## 使用方法
