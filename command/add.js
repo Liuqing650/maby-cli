@@ -12,6 +12,10 @@ module.exports = () => {
     let tplName = yield prompt('模板名称: ')
     let gitUrl = yield prompt('模板链接[git]: ')
     let branch = yield prompt('分支: ')
+    if (!branch) {
+      branch = 'master';
+    }
+    let desc = yield prompt('描述：')
     function createNo() {
       var tempNo = () => { return parseInt(Math.random() * 100) * 100 + parseInt(Math.random() * 100) };
       var judgeRepeat = (no) => {
@@ -34,6 +38,7 @@ module.exports = () => {
       config.tpl[tplName]['no'] = createNo()
       config.tpl[tplName]['url'] = gitUrl.replace(/[\u0000-\u0019]/g, '') // 过滤unicode字符
       config.tpl[tplName]['branch'] = branch
+      config.tpl[tplName]['desc'] = desc
     } else {
       console.log(chalk.red('模板已存在，请检查后重新添加!'))
       process.exit()
