@@ -12,7 +12,7 @@
   ```
  
   2. create
- 	```
+ 	``` 
     maby init
     
     名称： 4867 | 编号：[ mabyTemplate ]
@@ -21,7 +21,7 @@
     项目名称: newProject
   ```
   接下来将开始创建选择的项目
-  ```
+  ``` 
     项目创建中,请稍后...
 
     ✅ 项目创建完成!
@@ -30,7 +30,7 @@
   ```
 
   3. run
-  ```
+  ``` 
     cd newProject
     npm install
   ```
