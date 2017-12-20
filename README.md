@@ -7,14 +7,10 @@
 ## 使用方法
 
   1. install
-  <blockquote>
-    npm install maby-cli -g
-  </blockquote>
+  ` npm install maby-cli -g `
  
   2. create
- 	<blockquote>
- 		maby init
-	</blockquote>
+ 	` maby init `
 
   ```
     名称： 4867 | 编号：[ mabyTemplate ]
@@ -32,18 +28,14 @@
   ```
  	
   3. run
-  <blockquote>
-    cd newProject
-  </blockquote>
-  <blockquote>
-    npm install
-  </blockquote>
+  ` cd newProject `
+  ` npm install `
 
 ## 功能模块
 
-  | command | description | Support |
-  | ------ | ----------- | ----------- |
-  | add | 添加新模板 | ✔ |
-  | init | 本地初始化项目 | ✔ |
-  | list | 查看所有模板 |✔ |
-  | delete | 删除模板 | ✔ | 
+  | command | description | dec | Support |
+  | ------ | ----------- | ----------- | ----------- |
+  | add | 添加新模板 | ✔ |  |
+  | init | 本地初始化项目 | ✔ | ✔ |
+  | list | 查看所有模板 |✔ | ✔ |
+  | delete | 删除模板 | ✔ |  |
