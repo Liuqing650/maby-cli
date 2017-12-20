@@ -11,7 +11,7 @@ module.exports = () => {
     // 显示模板编号
     function showList() {
       Object.keys(config.tpl).map((tplName) => {
-        console.log('名称： %s | 编号：[ %s ]', config.tpl[tplName].no, tplName);
+        console.log('名称： %s | 编号：[ %s ]', tplName, config.tpl[tplName].no);
       })
     }
     showList();
